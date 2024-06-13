@@ -33,11 +33,11 @@ header {
     background-color: black;
     color:  white;
     padding-left: 5%;
-    min-height: 550px;
+    min-height: 600px;
 }
 
 header h2 {
-    padding-top: 100px;
+    padding-top: 50px;
     padding-bottom: 30px;
 }
 
