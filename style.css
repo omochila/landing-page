@@ -6,18 +6,15 @@
 }
 
 
-header {
+nav {
     background-color: black;
     margin: 0;
     padding: 30px;
-}
-
-nav {
     text-align: right;
-    padding-right: 10px;
 }
 
-header a {
+
+nav a {
     text-decoration: none;
     color: white;
     margin-right: 20px;
@@ -25,36 +22,36 @@ header a {
     transition-duration: 0.3s;
 }
 
-header a:hover {
+nav a:hover {
     background-color: white;
     color: black;
     font-weight: bolder;
     border-radius: 3px;
 }
 
-#inicio {
+header {
     background-color: black;
     color:  white;
     padding-left: 5%;
     min-height: 550px;
 }
 
-#inicio h2 {
+header h2 {
     padding-top: 100px;
     padding-bottom: 30px;
 }
 
-#inicio h1 {
+header h1 {
     font-size: 5em;
     padding-bottom: 15px;
 }
 
-#inicio p {
+header p {
     max-width: 500px;
     padding-bottom: 50px;
 }
 
-#inicio a {
+header a {
     text-decoration: none;
     color: black;
     background-color: white;
@@ -64,14 +61,15 @@ header a:hover {
     
 }
 
-#portifolio {
+article {
     margin: 0px;
 }
 
-#portifolio h2 {
-    font-size: 2em;
-    margin: 20px;
+article h2 {
+    font-size: 3em;
+    margin: 50px;
     text-align: center;
+
 }
 
 #container-imagens {
@@ -92,6 +90,20 @@ header a:hover {
     justify-content: center;
 }
 
-#container-jogos iframe {
-    margin: 20px;
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 7px;
+    margin-top: 25px;
+    font-size: .7em;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
