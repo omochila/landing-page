@@ -1,0 +1,97 @@
+@charset "UFT-8";
+
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header {
+    background-color: black;
+    margin: 0;
+    padding: 30px;
+}
+
+nav {
+    text-align: right;
+    padding-right: 10px;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+    padding: 10px;
+    transition-duration: 0.3s;
+}
+
+header a:hover {
+    background-color: white;
+    color: black;
+    font-weight: bolder;
+    border-radius: 3px;
+}
+
+#inicio {
+    background-color: black;
+    color:  white;
+    padding-left: 5%;
+    min-height: 550px;
+}
+
+#inicio h2 {
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+#inicio h1 {
+    font-size: 5em;
+    padding-bottom: 15px;
+}
+
+#inicio p {
+    max-width: 500px;
+    padding-bottom: 50px;
+}
+
+#inicio a {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 10px;
+    font-weight: bolder;
+    border-radius: 3px;
+    
+}
+
+#portifolio {
+    margin: 0px;
+}
+
+#portifolio h2 {
+    font-size: 2em;
+    margin: 20px;
+    text-align: center;
+}
+
+#container-imagens {
+    display: grid;
+    place-items: center;
+}
+
+#container-imagens img {
+    margin-bottom: 50px;
+    max-width: 90%;
+}
+
+#container-jogos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#container-jogos iframe {
+    margin: 20px;
+}
